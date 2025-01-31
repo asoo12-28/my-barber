@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-card {
+    width: 90%;
+    max-width: 600px;
+    background: linear-gradient(145deg, #222, #333);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    border: 2px solid #FFD700;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    color: #FFD700;
+}
+
+.header i {
+    font-size: 28px;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.location {
+    font-size: 16px;
+    color: #FFD700;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 15px;
+    color: #FFD700;
+}
+
+.logo-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #FFD700;
+    margin: 20px auto;
+}
+
+.barber-profiles {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.barber {
+    background-color: #444;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.barber h3 {
+    font-size: 20px;
+    color: #FFD700;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin: 0 auto;
+}
+
+.insta {
+    background: #FFD700;
+}
+
+.whatsapp {
+    background: #FFD700;
+}
+
+.social-btn i {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.social-btn:hover {
+    opacity: 0.8;
+}
